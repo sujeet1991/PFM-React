@@ -1,0 +1,178 @@
+.transaction_table {
+    margin: 20px auto;
+}
+#accordion .panel {
+    border: 0px none;
+    margin: 0px 0 20px;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1);
+    box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1);
+    background-color: #fff;
+}
+#accordion .panel-heading {
+    padding: 0 0px;
+    font-family: PFEncoreSansPro-Regular;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6c7174;
+    background-color: #fff;
+    border: 0;
+}
+#accordion .panel-title .collapsed {
+    color: #6c7174;
+    border-bottom: 1px solid #d3d3d3;
+    margin: 0;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    border: solid 0px #dddddd;
+    background-color: #fff;
+}
+.transaction_table .col-md-1, .transaction_table .col-md-2, .transaction_table .col-md-3 {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.icons_common {
+    width: 25px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.plus {
+    background: url('./images/plus.svg') no-repeat center 7px;
+    height: 40px !important;
+    cursor: pointer;
+}
+.plus:hover {
+    background: url('./images/plus_red.svg') no-repeat center center;
+}
+#accordion .panel-title .collapsed {
+    display: block;
+    position: relative;
+    background: transparent;
+    color: #6c7174;
+    padding: 15px 16px;
+    border: solid 0px #dddddd;
+    transition: all 0.10s linear 0s;
+    font-family: PFEncoreSansPro-Regular;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    background-color: #fff;
+    line-height: 20px;
+}
+
+.kotak_bank {
+    background: url('./images/kotak.svg') no-repeat center center;
+    width: 63px;
+    height: 40px;
+    display: inline-block;
+}
+.trans_hd_red {
+    color: #c7222a;
+    font-size: 16px;
+}
+.trans_hd_grey {
+    color: #6c7174;
+    font-size: 16px;
+}
+.trans_hd_red.bal {
+    color: #8b151b;
+}
+.top7 {
+    background-position: center 6px;
+}
+.icons_common {
+    width: 25px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.refresh {
+    background: url('./images/refresh.svg') no-repeat center center;
+}
+.edit {
+    background: url('./images/edit.svg') no-repeat center center;
+}
+.delete {
+    background: url('./images/delete.svg') no-repeat center center;
+}
+#accordion .panel-body {
+    border-top: 0 none;
+    font-family: PFEncoreSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #6c7174;
+    border-top: 1px solid #ddd;
+    padding: 0 0px;
+}
+.table {
+    width: 100%;
+}
+.table-heading {
+    border-radius: 2px;
+    /* background-color: #999999; */
+    height: 44px;
+}
+.heading-style {
+    font-family: PFEncoreSansPro-Regular;
+    font-size: 15px;
+    border-bottom: 2px solid #f8f8f8;
+    text-align: left;
+    color: #808080;
+}
+.widcol3 {
+    width: 13.3%;
+}
+.widcol4 {
+    width: 32%;
+}
+.widcol5 {
+    width: 22%;
+}
+.padrt40 {
+    padding-right: 40px;
+    padding-left: 0;
+}
+.equality-td {
+    height: 50px;
+    font-family: PFEncoreSansPro-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #6c7174;
+    /* padding-left: 25px !important; */
+    border-bottom: 1px solid #f7f7f7;
+}
+.padrt40 {
+    padding-right: 40px !important;
+    padding-left: 0;
+}
+.view_all_trans {
+    color: #c7222a;
+    font-family: PFEncoreSansPro-Regular;
+    font-size: 15px;
+}
+.long_arrow_right {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    vertical-align: middle;
+    background: url('./images/right-long-arrow.png') center center no-repeat;
+}
+.minus {
+    background: url('./images/minus_red.svg') no-repeat center center;
+}

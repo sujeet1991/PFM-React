@@ -1,0 +1,177 @@
+.bubble_div {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #e4e0df;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    position: relative;
+    height: 140px;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1);
+    box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1);
+}
+a {
+    text-decoration: none;
+}
+.bubble_div .heading_1 {
+    color: #969a9d;
+    font-size: 17px;
+    /* font-family: 'PFHandbookPro-Regular'; */
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-family: 'PFHandbookPro-Bold';
+    font-size: 18.0px;
+    color: #979b9e;
+    text-align: left;
+    line-height: 22.0px;
+}
+.bubble_amt {
+    font-family: 'PFHandbookPro-Bold',Helvetica,Arial,serif;
+    font-size: 38px;
+    color: rgba(74,73,74,1.0);
+    text-align: justify;
+    line-height: 51.0px;
+    margin-top: 12px;
+}
+.fa-rupee.fnt16 {
+    font-size: 16px;
+    color: #9c9c9c;
+    margin-right: 3px;
+}
+.bubble_tooltip {
+    background-color: #f2eeed;
+    color: #4b494c;
+    padding: 0px 0px 0;
+    width: 95%;
+    max-width: 100%;
+    position: absolute;
+    border-radius: 5px;
+    top: 50px;
+    z-index: 9;
+    display: none;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(255,255,255,0.25);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(255,255,255,0.25);
+    box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.25);
+    left: 0px;
+    border: 1px solid #e3dddd;
+}
+.arrow_box1 {
+    position: relative;
+    background: #f2eeed;
+}
+.arrow_box1:after {
+    bottom: 100%;
+    left: 15%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #f1edec;
+    border-width: 15px;
+    margin-left: -16px;
+}
+.bubble_tooltip .tooltip_hd {
+    font-family: 'PFHandbookPro-Bold';
+    font-size: 16.0px;
+    color: #4b494c;
+    text-align: left;
+    line-height: 18.0px;
+    border-bottom: 1px solid #e5e0e4;
+    padding: 10px 10px 10px 15px;
+    text-transform: none;
+}
+.wid40 {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+.wid50 {
+    display: inline-block;
+    width: 38%;
+    text-align: right;
+    vertical-align: middle;
+}
+.bubble_tooltip .fa-rupee {
+    font-size: 11px;
+    margin-right: 3px;
+}
+.bubble_tooltip ol {
+    padding: 0px 0;
+}
+.bubble_tooltip ol li {
+    font-family: 'PFHandbookPro-Regular';
+    font-size: 13px;
+    color: #666;
+    text-align: justify;
+    line-height: 26px;
+    text-transform: none;
+    list-style: none;
+    border-bottom: 1px solid #e5e0e4;
+    padding: 3px 15px 3px 16px;
+}
+.bubble_icons {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.circle_dots{ width: 40px; height: 40px; background-color: #fff; border: 2px solid #d4d5d7; border-radius: 50%; display: inline-block; vertical-align: middle; line-height: 33px; text-align: center; cursor: pointer; transition:all 0.1s ease-in-out;}
+.circle_dots.active, .circle_dots:hover{border: 2px solid #c7222a;}
+.circle_dots.active .dots, .circle_dots:hover .dots ,  .view_more_bubble_dt.active .dots, .view_more_bubble_dt:hover .dots{background-color: #c7222a;}
+.dots{width: 5px; height: 5px;margin-left:4px;  background-color: #d4d5d7;border-radius: 50%;display: inline-block; vertical-align: middle;}
+.dots:first-child{
+    margin-left:0px; 
+}
+.bubble_div .heading_1{ color: #969a9d; font-size: 17px; font-family: 'PFHandbookPro-Regular'; text-transform: uppercase; margin: 0; padding: 0; 
+font-family: 'PFHandbookPro-Bold';font-size: 18.0px;color: #979b9e;text-align: left;line-height: 22.0px;}
+.bubble_div .heading_1:hover{color: rgba(149,24,26,1.0); text-decoration:underline;}
+.bubble_icons{ width: 35px; height: 35px; display: inline-block;position: absolute; right: 15px; top: 15px;}
+.bubble_amt{ font-family: 'PFHandbookPro-Bold',Helvetica,Arial,serif; font-size:38px; color: rgba(74,73,74,1.0);
+text-align: justify; line-height: 51.0px; margin-top: 12px; }
+.count{background-color: rgba(126,210,33,1.0);height: auto;width: auto;margin: 0;font-family: 'PFHandbookPro-Bold';
+font-size: 11.0px;color: rgba(254,254,254,1.0);text-align: left;line-height: 18px; padding: 1px 3px; border-radius: 2px;    vertical-align: text-top;}
+.add_goal{font-family: 'PFEncoreSansPro-Regular',Helvetica,Arial,serif;    font-size: 12.0px;    color: rgba(108,113,116,1.0); 
+text-align: left; line-height: 17.0px; margin-top: 20px;}
+.fa-rupee.fnt16{ font-size: 16px; color: #9c9c9c; margin-right: 3px;}
+.view_more_bubble_dt{ position: absolute; bottom: 10px; right:15px; cursor: pointer;}
+
+.add_manual_uploads, .view_more_dropdown{    position: absolute; width: auto; min-width: 180px; background-color: #fff; right: 11px; top: 130%;
+    z-index: 9; border-radius: 3px; padding: 5px 0px;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.5);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.5);
+    box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.5); display: none;}
+
+    .view_more_dropdown{ top: 85%; width: auto; padding:5px 0px; min-width: 120px;}
+    .add_manual_uploads ul, .view_more_dropdown ul{ list-style: none; padding: 0; margin-bottom: 0;}
+    .add_manual_uploads ul li, .view_more_dropdown ul li{ list-style: none; text-align: left; font-family: 'PFEncoreSansPro-Regular'; font-size: 13.0px;
+    color: rgba(146,144,144,1.0); text-align: left; line-height: 30.0px;transition: 0.5s ease-in-out all;}
+    .add_manual_uploads ul li a, .view_more_dropdown ul li a{ color:rgba(146,144,144,1.0); text-decoration: none; padding:5px 15px; line-height: 30px; }
+    .add_manual_uploads ul li:hover, .view_more_dropdown ul li:hover{background-color: #f0f0f0;}
+    .add_manual_uploads ul li:hover a, .view_more_dropdown ul li:hover a{ color: #000;}
+    /* iframe{ border: 0;}
+    .add_icon{ background: url(../../images/yodlee/red.svg) no-repeat 0 0; width: 35px; height: 38px; float: left; margin-right: 10px; background-size: 90%; cursor: pointer;}
+    .add_icon:hover{background: url(../../images/yodlee/redfilled.svg) no-repeat 0 0; background-size: 90%;} */
+    .modal-header .modal-title{ font-size: 28px;font-family: 'PFHandbookPro-Bold';color: #000; text-transform: uppercase; padding: 0;}
+    /* .modal-header .close{ position: absolute; right: 15px; top: 15px; background:  url(../../images/yodlee/close.png) no-repeat center center; width: 30px; height: 30px; display: block;} */
+    .modal{ max-width: 800px;}
+    .billers .view_more_bubble_dt{ bottom:0; right: 5px;}
+    .billers .view_more_dropdown{ width: 165px; text-transform: none;}    
+.bank_acc_icon {
+    background: url('./images/Bank.svg') no-repeat 0 0;
+}
+
+
+.creditcard_acc_icon {
+    background: url('./images/CreditCard.svg') no-repeat 0 0;
+}

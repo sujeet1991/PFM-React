@@ -1,0 +1,70 @@
+.second_level{ margin: 30px auto;}
+.net_balance{ font-family: 'PFEncoreSansPro-Regular'; font-size: 18px; color:#6c7174; line-height: 34px;}
+.net_balance_amt{ color: #8b151b; font-size: 46px;}
+.action_btn {
+    margin: 30px 0 0;
+}
+.text-right {
+    text-align: right !important;
+}
+/* Button CSS */
+.primary-btn {
+    font-family: PFHandbookPro-Light;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 8px 22px;
+    border: none;
+    outline: none;
+}
+.primary-red {
+    background-color: #c7222a;
+}
+.primary-red:hover,.primary-red:focus {
+    background-color: #c7222a;
+}
+.primary-red:active {
+    background-color: #660d0a;
+}
+.secondary-btn {
+    font-family: PFHandbookPro-Light;
+    font-size: 18px; 
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    border-radius: 2px;
+    padding: 7px 22px;
+    outline: none;
+    background-color: transparent;
+    border: solid 1px #c7222a;
+}
+.secondary-red {
+    color: #c7222a;
+}
+.secondary-red:hover,.secondary-red:focus {
+    box-shadow: 0 0 6px 0 #cdcece;
+    background-color: #ffffff;
+    border: solid 1px #c7222a;
+}
+.secondary-red:active {
+    color: #660d0a;
+  border: solid 1px #660d0a;
+}
+.action_btn{ margin: 30px 0 0;}
+.mar_rgt5 {
+    margin-right: 5px;
+}
+.dropdown_Arrow {
+    background: url(https://stg.adityabirlamoneyuniverse.com/home/PFM/images/dropdown_Arrow.png;wab398a6794fd2f440) no-repeat center center;
+    display: inline-block;
+    width: 11px;
+    height: 6px;
+    vertical-align: middle;
+}

@@ -1,0 +1,18 @@
+
+.charts_main_wrapper{ max-width: 100%; margin: 0 auto;}
+.white_bg{ display: block; background-color: #ffffff; border: 1px solid #e4e0df; border-radius: 4px; margin-bottom: 20px; 
+padding: 0px 0px;
+position: relative; 
+-webkit-box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1); -moz-box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1);
+box-shadow: 0px 0px 3px 1px rgba(102,102,102,0.1);
+}
+.chart_head{ border-bottom: 1px solid #ececec; padding:10px 25px;font-family: PFHandbookPro-Regular; font-size: 16px; color: #707070;}
+.chart_head span{color: #707070;cursor: pointer;}
+.chart_head span.active, .chart_head span:hover{ color:#c7222a;}
+.arrange_by_dropdown{ color: #c7222a; font-size: 14px;font-family: PFHandbookPro-Regular; border: none; -webkit-appearance: none; padding: 3px 5px;
+background: url(https://stg.adityabirlamoneyuniverse.com/home/PFM/images/dropdown_Arrow.png;wab398a6794fd2f440) no-repeat 97% center; width: 100px;}
+.arrange_by_dropdown:focus{ border: 0; outline: none;}
+
+.transaction_table {
+    margin: 20px auto;
+}
